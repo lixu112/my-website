@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
+  --accent-color: #f093fb;
+  --text-color: #333;
+  --text-light: #666;
+  --bg-light: #f8f9fa;
+  --bg-dark: #2c3e50;
+}
+
+body {
+  font-family: 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: #fff;
+}
+
+.el-row {
+  margin: 0;
+}
+
+.el-col {
+  padding: 0;
+}
+
+.el-button--link {
+  font-size: 1rem;
+}
+
+.el-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.el-tag {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border: none;
+  color: var(--primary-color);
+}
+
+.el-timeline-item__tail {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.el-timeline-item__node {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border-color: transparent;
+}
+
+.el-progress-bar__inner {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.el-button--primary {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border: none;
+}
+
+.el-button--primary:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
